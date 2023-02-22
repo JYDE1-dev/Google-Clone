@@ -1,0 +1,70 @@
+
+body{
+    background: #202124;
+    background-image: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    
+}
+
+
+table{
+  transform: translate(1420px);
+    color: white;
+    border-collapse: collapse;
+    border: 0px;
+
+}
+
+form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    font-family: arial, sans-serif;
+    color: white;
+    font-size: 90px;
+    transform: translate(10%);
+}
+h3{
+    transform: translate(280px, -70px);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+input[name="q"]{
+    border-radius: 15px;
+    background: #202124;
+    border: 1px solid white;
+    height: 25px;
+    width:400px;
+    color: white;
+    text-decoration-color: white;
+    transform: translate(0px, -50px);
+}
+input[type="submit"]{
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 6px;
+    transform: translate(70%,-40px);
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid white;
+    
+}
+
+td{
+   
+    transform: translate(-100px);
+}

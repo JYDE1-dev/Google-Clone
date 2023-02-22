@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Advanced Google search</title>
+        <link rel="stylesheet" href="AdvSearch.css">
+        <a href="index.html" class="google">Google</a>
+    </head>
+    <body>
+        <div class="Adv">
+            <label style="margin-left: 10px; ">Advanced Search</label>
+        </div>
+        <hr style="border-style:groove">
+    
+        <div class="form">
+            <form action="https://www.google.com/search/advanced_search" method="get" name="f">
+            <div class="top">Find Pages with...</div>
+            <div class="right">To do this in the search box</div>
+            <div class="First">
+                <label for="First" class="labels">all these words:</label>
+                <input type="text" value="" name="as_q" class="txt">
+                <div class="left">
+                    <div class="end">Type the important words:
+                        <span class="mono">tri-color rat terrier</span>
+                    </div>
+                </div>
+            </div>
+            <div class="Second">
+                <label for="second" class="labels2">this exact word or phrase:</label>
+                <input type="text" value="" name="as_epq" class="txt">
+                <div class="left2">
+                    <div class="end">put the exact words in quotes:
+                        <span class="mono">"rat terrier"</span>
+                    </div>
+                </div>
+            </div>
+            <div class="third">
+                <label for="third" class="label3">any of these words:</label>
+                <input type="text" value="" name="as_oq" class="txt">
+               <div class="left3">
+                <div class="end">Type <b>OR</b> between all the words you want: miniature OR standard
+                    <span class="mono">miniature OR standard</span>
+                </div>
+               </div>
+            </div>
+            <div class="fourth">
+                <label for="fourth" class="label4">none of these words</label>
+                <input type="text" value=""  name="as_eq" class="txt">
+                <div class="left4">
+                    <div class="end">Put a minus sign just before words that you don't want:<br>
+                    <span class="mono">-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Advanced Seacrh">
+          </form>
+
+        </div>
+    </body>
+</html>
