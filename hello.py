@@ -59,8 +59,29 @@
 # shops = ["Justrite", "Shoprite", "Hutoos"]
 # for shop in shops:
 #     print(shops)
-game = {"God of War":"Playstation", "Halo": "Xbox"}
-game["Spiderman"] = "Playstation"
-for i in game:
-    print(i)
+# game = {"God of War":"Playstation", "Halo": "Xbox"}
+# game["Spiderman"] = "Playstation"
+# for i in game:
+#     print(i)
+#=============================================================
 
+# FUNCTIONS
+# def square(x):
+#     return x + x
+# # from functions import square-- this allows u to use functions on another file
+# # or use  print(f"The square of {i} is {functions.square(i)}")
+# for i in range(10):
+#     print(f"The square of {i} is {square(i)}")
+#===========================================================================
+
+# OOP
+# class Point():
+#     def __init__(self, input1, input2):
+#         self.a = input1
+#         self.b = input2
+# p = Point(3,"balablu")
+# print(p.a)
+# print(p.b)
+
+
+        
